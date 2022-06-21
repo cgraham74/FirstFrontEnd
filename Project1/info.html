@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formcss.css">
+    <title>User Information Form</title>
+</head>
+<body>
+    <main>
+    <section id="userinfo">
+   
+        <form name="userinformation" id="userform" action="http://localhost:3000" method="post" >
+            <!-- form interactive controls -->
+
+            <label for="name">Name</label>
+            <input name="name" id="name"  type="text" required />
+        <br/>
+        <br/>
+            <label for="email">Email</label>
+            <input name="email" id="email"  type="email" required/>
+        <br/>
+        <br/>
+            <label for="date-of-birth">Date of birth</label>
+            <input name="date-of-birth" type="date" id="date-of-birth" value="yyyy-mm-dd" min="1900-01-01" max="2022-12-31">
+        <br/>
+        <br/>
+            <label for="favorite-color">Favorite color</label>      
+            <input name="favorite-color" type="color" id="favorite-color" value="#e66465">
+        <br/>
+        <br/>
+            <label for="lucky-number">Lucky number</label>
+            <input name="lucky-number" type="number" id="lucky-number">     
+        <br/>
+        <br/>
+            <label for="confirmation">Confirmation</label>
+            <input name="confirmation" type="checkbox" id="confirmation" >
+        <br/>
+        <br/>
+            <button name="submit" class="button button" input type="submit">Submit</button>
+        </form>
+    </section>
+   </main> 
+</body>
+</html>

@@ -1,0 +1,32 @@
+input[type=text]{
+    padding: 10px 10px;
+    margin: 8px 0;
+  }
+  input[type=email] {
+    padding: 10px 10px;
+    margin: 8px 0; 
+  }
+  input[type=number] {
+  
+    padding: 10px 10px;
+    margin: 8px 0;
+  }
+ 
+  .button {
+    background-color: white;
+    color: rgb(35, 80, 92);
+    border: 2px solid #555555;
+    padding: 10px 25px;
+  }
+  
+  .button:hover {
+    background-color: rgb(36, 65, 65);
+    color: white;
+  }
+
+  #userform {
+    background-color: rgb(127, 153, 153);
+  }
+  table{
+    background-color: rgb(127, 153, 153);
+  }

@@ -1,0 +1,91 @@
+th{
+    font-weight: bolder;
+}
+.thin-gray-border {
+    border-color: rgb(92, 92, 92);
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(92, 92, 92);
+  }
+
+  .box {
+    border-style: solid;
+    border-color: rgb(92, 92, 92);
+    border-width: 20px;
+  }
+
+  .box-gray {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(92, 92, 92);
+  }
+  .box-white {
+    margin: 20px;
+    padding: 2px;
+  }
+  body{
+    background-color: rgb(248, 248, 248);
+  }
+  #younggrace {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+ul {
+    display: inline-block;
+   
+}
+  #careergrace{
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  #retiredgrace {
+    float: left;
+    padding-left: 20px;
+    margin: 0px 15px 0px 0px;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  h1{
+    text-align: center;
+  }
+  #amazing{
+    text-align: center;
+    text-decoration: none;
+  }
+  h2{
+    padding-left: 20px;
+    text-decoration: underline;
+  }
+  h3{
+    padding-left: 20px;
+  }
+  h4{
+    padding-left: 20px;
+  }
+  h5{
+    text-align: center;
+  }
+  p{
+    padding-left: 20px;
+  }
+  aside{
+    padding-left: 20px;
+  }
+  table{
+    padding-left: 20px;
+  }
+  #quotes-section{
+    font-style: italic;
+  }
+  #quote{
+    font-style: normal;
+  }
